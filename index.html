@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Generador QR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>⚡ Generador QR</h1>
+        
+        <div class="input-box">
+            <input type="text" id="qrText" placeholder="Escribe texto o URL aquí...">
+        </div>
+        
+        <button onclick="generarQR()">Generar QR</button>
+        
+        <div id="qrResult"></div>
+        
+        <a id="downloadBtn" class="hidden" onclick="descargarQR()">Descargar PNG</a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
