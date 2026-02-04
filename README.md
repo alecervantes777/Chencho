@@ -1,1 +1,1 @@
-# Chencho
+# Generador QR
